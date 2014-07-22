@@ -18,7 +18,7 @@ ADD comet.2014011.linux.exe /
 
 RUN chmod +x comet.2014011.linux.exe
 
-ENTRYPOINT ["./comet.2014011.linux.exe"]
+ENTRYPOINT ["/comet.2014011.linux.exe"]
 
 ##################### INSTALLATION END #####################
 
